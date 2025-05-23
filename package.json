@@ -1,0 +1,38 @@
+{
+  "name": "miniorm",
+  "version": "1.0.0",
+  "description": "A lightweight, minimal TypeScript ORM & query‑builder for MySQL, PostgreSQL and SQLite",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SignorMassimo/miniorm"
+  },
+  "keywords": [
+    "zexson_team",
+    "signor_p",
+    "orm",
+    "query-builder",
+    "typescript",
+    "mysql",
+    "postgresql",
+    "sqlite",
+    "minimal",
+    "lightweight"
+  ],
+  "author": "_signor_p_",
+  "license": "MIT",
+  "homepage": "https://zexson-dev.vercel.app/miniorm",
+  "type": "commonjs",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "zexson_toolkit": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.0.0"
+  }
+}
