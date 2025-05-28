@@ -36,6 +36,7 @@ export class MiniOrm {
             console.log(red(`'${name}' alerty exsts.`))
             process.exit(1)
         }
+        return (MiniOrm.dbs[name] as any).db
     }
     private static conenectionManager(name: string, config: ConnectionType['mysql'] | ConnectionType['pg'] | ConnectionType['sqlite']) {
         try {
